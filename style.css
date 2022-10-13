@@ -1,6 +1,11 @@
 html {
     margin: auto;
 }
+
 p {
     font-size: large;
+}
+
+.head-title {
+    font-weight: bold;
 }
