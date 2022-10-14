@@ -84,7 +84,18 @@ li {
 }
 
 .description {
+    background: #D9D9D9;
+    height: 250px;
+    width: 100%;
     color: black;
+    border-radius: 1rem;
+    margin-top: 20px;
+}
+
+.description_text{
+    font-size: larger;
+    padding-left: 20px;
+    padding-top: 3px;
 }
 
 .country {
@@ -122,6 +133,16 @@ li {
     background: #D9D9D9;
     height: 70px;
     padding: 10px 0;
+}
+
+.footer_background {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_img {
+    width: 25px;
+    height: 25px;
 }
 
 
