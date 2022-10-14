@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.page {
     background-image: url(./img/background.png);
     width: 100%;
     height: 852px;
@@ -64,7 +64,7 @@ li {
 
 .header {
     display: flex;
-    margin-top: 40px;
+    padding-top: 40px;
     Justify-content: space-between;
 }
 
