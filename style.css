@@ -1,5 +1,11 @@
-body {
-    width: 1600px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1170px;
 }
 
 .navbar {
@@ -21,7 +27,7 @@ li { display: inline; }
 
 .background {
     background-image: url(./img/background.png);
-    width: 1600px;
+    width: 100%;
     height: 852px;
 }
 
@@ -29,21 +35,21 @@ li { display: inline; }
     background-image: url(./img/georgia.png);
     width: 370px;
     height: 538px;
-    float: left;
+    
 }
 
 .country_kazakhstan {
     background-image: url(./img/kazakhstan.png);
     width: 370px;
     height: 538px;
-    float: left;
+   
 }
 
 .country_romania {
     background-image: url(./img/romania.png);
     width: 370px;
     height: 538px;
-    float: left;
+    
 }
 
 .country_turkey {
@@ -57,14 +63,14 @@ li { display: inline; }
     background-image: url(./img/armenia.png);
     width: 370px;
     height: 538px;
-    float: left;
+    
 }
 
 .country_china {
     background-image: url(./img/china.png);
     width: 370px;
     height: 538px;
-    float: left;
+    
 }
 
 .first-col, .second-col {
