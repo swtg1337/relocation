@@ -5,7 +5,10 @@
 }
 
 .wrapper {
+    position: absolute;
     width: 1170px;
+    left: 50%;
+    margin-left: -585px;
 }
 
 .navbar {
@@ -23,8 +26,7 @@ li { display: inline; }
 }
 
 .header{
-    display: flex;
-   
+    display: flex;   
 }
 
 .background {
