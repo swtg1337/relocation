@@ -75,4 +75,5 @@ li { display: inline; }
 
 .first-col, .second-col {
     overflow: hidden;
+    display: flex;
 }
