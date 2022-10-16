@@ -88,6 +88,40 @@ li {
     }
 }
 
+.plane {
+    display: block;
+    rotate: 45deg;
+    width: 52px;
+    margin: 300px auto 0;
+    position: relative;
+    top: 0;
+    animation-name: moveForward;
+    animation-duration: 2s;
+    animation-iteration-count: 8;
+    animation-direction: alternate;
+}
+
+@keyframes moveForward {
+    0% {
+        left: 0;
+    }
+    20% {
+        transform: rotate(-45deg);
+        transform: translate3d(10px 10px 0);
+    }
+    40% {
+        transform: rotate(-55deg);
+    }
+    60% {
+        transform: rotate(-55deg);
+        left: 10%;
+    }
+    80% {}
+    100% {
+        // top: 40%;
+    }
+}
+
 .country {
     display: flex;
     flex-wrap: wrap;
