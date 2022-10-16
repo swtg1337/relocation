@@ -71,7 +71,7 @@ li {
 .header {
   display: flex;
   padding-top: 40px;
-  Justify-content: space-between;
+  justify-content: space-between;
 }
 
 .description {
@@ -130,39 +130,4 @@ li {
   margin-right: 20px;
 }
 
-/* .country_georgia {
-    background-image: url(./img/georgia.png);
-    width: 370px;
-    height: 538px;
-}
-
-.country_kazakhstan {
-    background-image: url(./img/kazakhstan.png);
-    width: 370px;
-    height: 538px;
-}
-
-.country_romania {
-    background-image: url(./img/romania.png);
-    width: 370px;
-    height: 538px;
-}
-
-.country_turkey {
-    background-image: url(./img/turkey.png);
-    width: 370px;
-    height: 538px;
-}
-
-.country_armenia {
-    background-image: url(./img/armenia.png);
-    width: 370px;
-    height: 538px;
-}
-
-.country_china {
-    background-image: url(./img/china.png);
-    width: 370px;
-    height: 538px;
-} */
 /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
