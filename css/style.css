@@ -88,6 +88,56 @@ li {
   padding-top: 3px;
 }
 
+.plane {
+  display: block;
+  rotate: 45deg;
+  width: 52px;
+  margin: 300px auto 0;
+  position: relative;
+  top: 0;
+  -webkit-animation-name: moveForward;
+          animation-name: moveForward;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 8;
+          animation-iteration-count: 8;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes moveForward {
+  0% {
+    left: 0;
+  }
+  20% {
+    transform: rotate(-45deg);
+    transform: translate3d(10px 10px 0);
+  }
+  40% {
+    transform: rotate(-55deg);
+  }
+  60% {
+    transform: rotate(-55deg);
+    left: 10%;
+  }
+}
+
+@keyframes moveForward {
+  0% {
+    left: 0;
+  }
+  20% {
+    transform: rotate(-45deg);
+    transform: translate3d(10px 10px 0);
+  }
+  40% {
+    transform: rotate(-55deg);
+  }
+  60% {
+    transform: rotate(-55deg);
+    left: 10%;
+  }
+}
 .country {
   display: flex;
   flex-wrap: wrap;
