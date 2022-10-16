@@ -32,6 +32,17 @@ a {
     width: 100%;
     height: 852px;
     color: rgba(255, 255, 255, 1);
+    &_text {
+        text-align: center;
+        margin-top: 24%;
+        &_name {
+            font-size: 75px;
+        }
+        &_tagline {
+            color: rgb(144, 157, 157);
+        margin: 0 auto;
+        }
+    }
 }
 
 .wrapper {
@@ -49,29 +60,12 @@ a {
     }
 }
 
-.main_text {
-    text-align: center;
-    margin-top: 24%;
-    &_name {
-        font-size: 75px;
-    }
-    &_tagline {
-        color: rgb(144, 157, 157);
-    margin: 0 auto;
-    }
-}
-
 li {
     display: inline;
 }
 
 .section_2 {
     height: 300px;
-}
-
-.country-selection {
-    list-style-type: none;
-    display: inline;
 }
 
 .header {
