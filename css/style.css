@@ -126,6 +126,9 @@ li {
   height: 25px;
   margin-left: 20px;
 }
+.footer_menu_item {
+  margin-right: 20px;
+}
 
 /* .country_georgia {
     background-image: url(./img/georgia.png);
