@@ -33,6 +33,17 @@ a {
   height: 852px;
   color: rgb(255, 255, 255);
 }
+.main_text {
+  text-align: center;
+  margin-top: 24%;
+}
+.main_text_name {
+  font-size: 75px;
+}
+.main_text_tagline {
+  color: rgb(144, 157, 157);
+  margin: 0 auto;
+}
 
 .wrapper {
   margin: 0 auto;
@@ -49,29 +60,12 @@ a {
   margin: 0 12px;
 }
 
-.main_text {
-  text-align: center;
-  margin-top: 24%;
-}
-.main_text_name {
-  font-size: 75px;
-}
-.main_text_tagline {
-  color: rgb(144, 157, 157);
-  margin: 0 auto;
-}
-
 li {
   display: inline;
 }
 
 .section_2 {
   height: 300px;
-}
-
-.country-selection {
-  list-style-type: none;
-  display: inline;
 }
 
 .header {
