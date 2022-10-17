@@ -105,27 +105,25 @@ li {
     margin: 300px auto 0;
     position: relative;
     top: 0;
-    animation-name: moveForward;
-    animation-duration: 2s;
-    animation-iteration-count: 8;
-    animation-direction: alternate;
+    animation: airplane-fly 8s infinite linear;
 }
 
-@keyframes moveForward {
+@keyframes airplane-fly {
     0% {
         left: 0;
+        top: 0;
     }
     20% {
-        transform: rotate(-45deg);
-        transform: translate3d(10px 10px 0);
+        left: 10%;
+        top: -15%;
+        transform: rotate(-120deg);
+        animation-duration: 3s;
     }
     40% {
-        transform: rotate(-55deg);
+        top: -10px;
+        left: 15px;
     }
-    60% {
-        transform: rotate(-55deg);
-        left: 10%;
-    }
+    60% {}
     80% {}
     100% {
         // top: 40%;
