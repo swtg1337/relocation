@@ -10,9 +10,9 @@
 
 function number(a) {
     if (typeof(a) != 'number' || a === 0) {
-        return('123');
+        return ('123');
     }
-    if (a === 1 ) {
+    if (a === 1) {
         return ('0');
     } else if (a === 2) {
         return ('0 1');
@@ -21,13 +21,13 @@ function number(a) {
     let n2 = 1;
     let n3;
     let x = '0 1'
-    for (let i=2; i < a; i++ ) {
+    for (let i = 2; i < a; i++) {
         x += ' ' + n1;
         n3 = n1;
         n1 += n2;
-        n2 = n3;        
+        n2 = n3;
     }
     return (x);
 }
 
-console.log(number(4));
+console.log(number(100));
