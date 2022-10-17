@@ -10,19 +10,14 @@
 
 function number(a) {
     if (typeof(a) != 'number' || a === 0) {
-        return ('123');
+        return ('');
     }
-    if (a === 1) {
-        return ('0');
-    } else if (a === 2) {
-        return ('0 1');
-    }
-    let n1 = 1;
+    let n1 = 0;
     let n2 = 1;
     let n3;
-    let x = '0 1'
-    for (let i = 2; i < a; i++) {
-        x += ' ' + n1;
+    let x = '';
+    for (let i = 0; i < a; i++) {
+        x += n1 + ' ';
         n3 = n1;
         n1 += n2;
         n2 = n3;
@@ -30,4 +25,4 @@ function number(a) {
     return (x);
 }
 
-console.log(number(100));
+console.log(number(15));
