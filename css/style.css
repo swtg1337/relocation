@@ -201,7 +201,9 @@ li {
   padding: 110px 0 0 120px;
 }
 .advantages_name {
-  margin-left: 520px;
+  position: relative;
+  left: 560px;
+  top: 18px;
   background-color: #A38F8F;
   height: 60px;
   width: 370px;
@@ -225,6 +227,9 @@ li {
   padding: 130px 0 0 90px;
 }
 .disadvantages_name {
+  position: relative;
+  left: 30px;
+  top: 18px;
   background-color: #A38F8F;
   height: 60px;
   width: 370px;
@@ -233,7 +238,6 @@ li {
   border-radius: 1rem;
   color: white;
   padding-top: 10px;
-  margin-left: 45px;
 }
 .disadvantages_text {
   background-color: #E0E0E0;
