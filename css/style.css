@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Montserrat Alternates;
+  font-family: "Montserrat" Alternates;
 }
 
 .page {
@@ -142,6 +142,7 @@ li {
 }
 .country_img:hover {
   filter: blur(3px) grayscale(70%);
+  transition: 400ms;
 }
 
 .footer {
@@ -165,8 +166,6 @@ li {
 .side_section {
   background-color: #D9D9D9;
   width: 100%;
-  height: 2800px;
-  border-radius: 1rem;
 }
 
 .side_name {
@@ -180,23 +179,15 @@ li {
 .important {
   padding-top: 28px;
 }
-.important_text {
-  font-size: 48px;
-  text-align: right;
-  margin-right: 116px;
-}
 .important_content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 24px;
 }
 .important_content_item {
-  margin-top: 50px;
-  margin-left: 35px;
-  margin-right: 35px;
-  background-color: #E0E0E0;
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
 }
 
 .advantages {
@@ -222,7 +213,7 @@ li {
   height: 215px;
   padding: 15px 20px 15px 20px;
   border-radius: 1rem;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .disadvantages {
@@ -258,6 +249,8 @@ li {
 .info_name {
   text-align: center;
   font-size: 36px;
+  margin: 0 0 15px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 .info_text {
   background-color: #E0E0E0;
@@ -270,13 +263,19 @@ li {
 .links {
   padding-top: 100px;
   text-align: center;
-  font-size: 48px;
+  font-size: 36px;
 }
 .links_item {
-  background-color: grey;
-  width: 100%;
-  height: 120px;
+  background-color: #E0E0E0;
+  width: 900px;
+  height: 115px;
+  padding: 15px 20px 15px 20px;
   border-radius: 1rem;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.links_label {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
