@@ -59,7 +59,7 @@ a {
 
 .wrapper {
     margin: 0 auto;
-    width: 1170px;
+    max-width: 1170px;
 }
 
 .navbar {
@@ -82,11 +82,18 @@ li {
 
 .header {
     display: flex;
-    padding-top: 40px;
+    padding: 20px;
     justify-content: space-between;
+    position: relative;
+    &_blur {
+        backdrop-filter: blur(4px);
+        position: absolute;
+        height: 50px;
+        width: 100%;
+    }
 }
 
-.bg_header{
+.bg_header {
     width: 100%;
     height: 40px;
     background-color: $gray;
