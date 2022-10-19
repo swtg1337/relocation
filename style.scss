@@ -22,10 +22,37 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     &_armenia {
-        background-image: url(/img/armenia_bg.png);
+        background-image: url(/img/armenia_bg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
     &_georgia {
         background-image: url(/img/georgia_bg.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    &_kazakhstan {
+        background-image: url(/img/kazakhstan_bg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    &_romania {
+        background-image: url(/img/romania_bg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    &_turkey {
+        background-image: url(/img/turkey_bg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    &_china {
+        background-image: url(/img/china_bg.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 100%;
