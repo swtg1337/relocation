@@ -66,7 +66,7 @@ a {
 }
 .navbar_item {
   display: inline;
-  margin: 0 12px;
+  margin: 0 18px;
 }
 
 li {
@@ -82,12 +82,13 @@ li {
   padding: 20px;
   justify-content: space-between;
   position: relative;
+  font-family: Montserrat Alternates;
 }
 .header_blur {
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   position: absolute;
-  height: 50px;
+  height: 60px;
   width: 100%;
 }
 
