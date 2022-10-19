@@ -89,7 +89,8 @@ li {
 .bg_header{
     width: 100%;
     height: 40px;
-    background-color: black;
+    background-color: $gray;
+    display: flex;
 }
 
 .description {
