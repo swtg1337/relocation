@@ -181,7 +181,7 @@ li {
     padding: 10px 0;
     &_background {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     &_img {
         width: 25px;
@@ -189,6 +189,7 @@ li {
         margin-left: 20px;
     }
     &_menu {
+        padding-inline-start: 0;
         &_item {
             margin-right: 20px;
         }
