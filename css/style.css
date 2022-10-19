@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  color: #ffffff;
+}
+
 .link-dark {
   color: rgb(0, 0, 0);
 }
