@@ -61,5 +61,5 @@ window.addEventListener("load", () => {
         '.country'
     ).render();
 
-});
+}); 
 
