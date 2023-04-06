@@ -1,0 +1,385 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat' Alternates;
+}
+
+.page {
+  background-image: url(./img/background.png);
+  width: 100%;
+  height: 852px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page_armenia {
+  background-image: url(/img/armenia_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page_georgia {
+  background-image: url(/img/georgia_bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page_kazakhstan {
+  background-image: url(/img/kazakhstan_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page_romania {
+  background-image: url(/img/romania_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page_turkey {
+  background-image: url(/img/turkey_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page_china {
+  background-image: url(/img/china_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.link-dark {
+  color: black;
+}
+
+.link-white {
+  color: #ffffff;
+}
+
+.main {
+  width: 100%;
+  height: 852px;
+  color: white;
+}
+
+.main_text {
+  text-align: center;
+  margin-top: 24%;
+}
+
+.main_text_name {
+  font-size: 75px;
+}
+
+.main_text_tagline {
+  color: #909d9d;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar_item {
+  display: inline;
+  margin: 0 18px;
+}
+
+li {
+  display: inline;
+}
+
+.section_2 {
+  height: 300px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  font-family: Montserrat Alternates;
+}
+
+.header_blur {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: absolute;
+  height: 60px;
+  width: 100%;
+}
+
+.bg_header {
+  width: 100%;
+  height: 40px;
+  background-color: #D9D9D9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.description {
+  background: #D9D9D9;
+  height: 250px;
+  width: 100%;
+  color: black;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+
+.description_text {
+  font-size: larger;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.plane {
+  display: block;
+  rotate: 45deg;
+  width: 52px;
+  margin: 200px auto 0;
+  position: relative;
+  top: 0;
+  offset-path: path("M18.45,58.46s52.87-70.07,101.25-.75,101.75-6.23,101.75-6.23S246.38,5.59,165.33,9.08s-15,71.57-94.51,74.56S18.45,58.46,18.45,58.46Z");
+  -webkit-animation: airplane-fly 8s linear infinite;
+          animation: airplane-fly 8s linear infinite;
+}
+
+@-webkit-keyframes airplane-fly {
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes airplane-fly {
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.country_item {
+  margin: 0 0 30px;
+  position: relative;
+}
+
+.country_img {
+  width: 300px;
+  height: 450px;
+}
+
+.country_title {
+  position: absolute;
+  bottom: 0;
+  right: 14px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.country_img:hover {
+  -webkit-filter: blur(3px) grayscale(70%);
+          filter: blur(3px) grayscale(70%);
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.footer {
+  background: #D9D9D9;
+  height: 70px;
+  padding: 10px 0;
+}
+
+.footer_background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer_img {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.footer_menu {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.footer_menu_item {
+  margin-right: 20px;
+}
+
+.side_section {
+  background-color: #D9D9D9;
+  width: 100%;
+}
+
+.side_name {
+  padding-top: 390px;
+  padding-bottom: 6px;
+  padding-left: 55px;
+  color: white;
+  font-size: 128px;
+}
+
+.important {
+  padding-top: 28px;
+}
+
+.important_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 24px;
+}
+
+.important_content_item {
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+}
+
+.advantages {
+  display: block;
+  padding: 110px 0 0 120px;
+}
+
+.advantages_name {
+  position: relative;
+  left: 560px;
+  top: 18px;
+  background-color: #A38F8F;
+  height: 60px;
+  width: 370px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 1rem;
+  color: white;
+  padding-top: 10px;
+}
+
+.advantages_text {
+  background-color: #E0E0E0;
+  width: 700px;
+  height: 215px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 1rem;
+  font-size: 19px;
+}
+
+.disadvantages {
+  display: block;
+  padding: 130px 0 0 90px;
+}
+
+.disadvantages_name {
+  position: relative;
+  left: 30px;
+  top: 18px;
+  background-color: #A38F8F;
+  height: 60px;
+  width: 370px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 1rem;
+  color: white;
+  padding-top: 10px;
+}
+
+.disadvantages_text {
+  background-color: #E0E0E0;
+  width: 700px;
+  height: 215px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 1rem;
+  font-size: 16px;
+  margin-left: 240px;
+}
+
+.info {
+  margin-top: 130px;
+}
+
+.info_name {
+  text-align: center;
+  font-size: 36px;
+  margin: 0 0 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.info_text {
+  background-color: #E0E0E0;
+  width: 900px;
+  height: 500px;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+.links {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.links_item {
+  background-color: #E0E0E0;
+  width: 900px;
+  height: 115px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 1rem;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.links_label {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
